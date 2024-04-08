@@ -1,0 +1,28 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dollar-text {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.usd-text {
+  font-size: 17px;
+  color: rgb(100, 100, 100);
+}
+
+.up-percent {
+  color: rgb(24, 128, 56);
+  margin-bottom: 7px;
+}
+
+.after-text {
+  color: rgb(100, 100, 100);
+}
+
+.down-percent {
+  color: rgb(235, 39, 39);
+}

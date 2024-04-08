@@ -1,0 +1,22 @@
+.img-rounded {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.img-square {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+  /* border-width: 2px;
+  border-style: solid;
+  border-color: blue; */
+}
+
+.img-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  object-fit: cover;
+  object-position: center;
+}

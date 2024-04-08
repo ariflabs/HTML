@@ -1,0 +1,91 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Tahoma Font */
+.tahoma-text {
+  font-family: tahoma;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+/* end tahoma */
+
+
+
+/* Arial Font */
+.arial-text {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+.sales-text {
+  font-size: 20px;
+  color: red;
+  font-style: italic;
+  margin-top: 0;
+}
+/* end arial */
+
+
+
+/* verdana font */
+.verdana-text-title {
+  font-family: verdana;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.verdana-text-caption {
+  font-family: verdana;
+  font-size: 15px;
+  color:rgb(100, 100, 100);
+  margin-top: 5px;
+}
+
+.verdana-text-deskripsi {
+  font-family: verdana;
+  font-size: 16px;
+  width: 280px;
+  margin-top: 20px;
+}
+
+.btn-started {
+  background-color: green;
+  border-style: none;
+  font-family: verdana;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+.text-shopping {
+  margin-top: 50px;
+  font-family: arial;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text-sub-shopping {
+  margin-top: 25px;
+  font-family: arial;
+  text-align: center;
+}
+
+.link-shopping {
+  margin-top: 25px;
+  font-family: arial;
+  text-align: center;
+  color: rgb(58, 108, 199);
+}

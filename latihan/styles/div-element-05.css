@@ -1,0 +1,39 @@
+.card {
+  width: 450px;
+  border-radius: 6px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.img-tweet {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.text-tweet {
+  width: 300px;
+  font-size: 18px;
+  border: none;
+  vertical-align: middle;
+}
+
+.btn-tweet {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(29, 155, 240);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  vertical-align: middle;
+}

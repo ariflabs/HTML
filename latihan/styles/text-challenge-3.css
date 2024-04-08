@@ -1,0 +1,28 @@
+p {
+  font-family: Arial;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header {
+  margin-bottom: 5px;
+}
+
+.freecode-text {
+  font-weight: bold;
+}
+
+.mail-text {
+  color: rgb(100, 100, 100);
+}
+
+.description-text {
+  width: 530px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.tag {
+  color: rgb(23, 88, 168);
+}
