@@ -17,7 +17,7 @@
     }
 
     .thumbnail {
-      width: 300px;
+      width: 100%;
     }
 
     .search-bar {
@@ -42,22 +42,9 @@
       margin-bottom: 4px;
     }
 
-    .video-preview {
-      width:300px;
-      display: inline-block;
-      vertical-align: top;
-      margin-right: 15px;
-    }
-
-    .channel-picture {
-      display: inline-block;
-      width: 50px;
-      vertical-align: top;
-    }
-    
-    .video-info {
-      display: inline-block;
-      width: 200px;
+    .video-info-grid {
+      display: grid;
+      grid-template-columns: 50px 1fr;
     }
 
     .profile-picture {
@@ -68,57 +55,163 @@
     .thumbnail-row {
       margin-bottom: 12px;
     }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 16px;
+      row-gap: 40px;
+    }
   </style>
 </head>
 <body>
   <input class="search-bar" type="text" placeholder="Search">
-  <div class="video-preview">
-    <div class="thumbnail-row">
-      <img class="thumbnail" src="thumbnails/thumbnail-01.webp">
-    </div>
-    
-    <div>
-      <div class="channel-picture">
-        <img class="profile-picture" src="channel-picture/channel-profile-01.jpg">
-      </div>
-      <div class="video-info">
-        <p class="video-title">
-          Backend web development - a complate overview
-        </p>
-    
-        <p class="video-author">
-          SuperSimpleDev
-        </p>
-    
-        <p class="video-stats">
-          1.5M views &#183 2 years ago
-        </p>
-      </div>
-    </div>    
-  </div>
 
-  <div class="video-preview">
-    <div class="thumbnail-row">
-      <img class="thumbnail" src="thumbnails/thumbnail-02.webp">
-    </div>
-    <div>
-      <div class="channel-picture">
-        <img class="profile-picture" src="channel-picture/channel-profile-02.jpg">
+  <div class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-01.webp">
       </div>
-      <div class="video-info">
-        <p class="video-title">
-          How I Got Good at Coding Interviews
-        </p>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-profile-01.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Backend web development - a complate overview
+          </p>
+      
+          <p class="video-author">
+            SuperSimpleDev
+          </p>
+      
+          <p class="video-stats">
+            1.5M views &#183 2 years ago
+          </p>
+        </div>
+      </div>    
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-02.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-profile-02.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            How I Got Good at Coding Interviews
+          </p>
+      
+          <p class="video-author">
+            NeetCode
+          </p>
+      
+          <p class="video-stats">
+            1.5M views &#183 3 years ago
+          </p>
+        </div>
+      </div>
+    </div>
     
-        <p class="video-author">
-          NeetCode
-        </p>
-    
-        <p class="video-stats">
-          1.5M views &#183 3 years ago
-        </p>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-01.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-profile-01.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Backend web development - a complate overview
+          </p>
+      
+          <p class="video-author">
+            SuperSimpleDev
+          </p>
+      
+          <p class="video-stats">
+            1.5M views &#183 2 years ago
+          </p>
+        </div>
+      </div>    
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-02.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-profile-02.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            How I Got Good at Coding Interviews
+          </p>
+      
+          <p class="video-author">
+            NeetCode
+          </p>
+      
+          <p class="video-stats">
+            1.5M views &#183 3 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-01.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-profile-01.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Backend web development - a complate overview
+          </p>
+      
+          <p class="video-author">
+            SuperSimpleDev
+          </p>
+      
+          <p class="video-stats">
+            1.5M views &#183 2 years ago
+          </p>
+        </div>
+      </div>    
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-02.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-profile-02.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            How I Got Good at Coding Interviews
+          </p>
+      
+          <p class="video-author">
+            NeetCode
+          </p>
+      
+          <p class="video-stats">
+            1.5M views &#183 3 years ago
+          </p>
+        </div>
       </div>
     </div>
   </div>
+ 
 </body>
 </html>
