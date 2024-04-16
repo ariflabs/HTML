@@ -1,1 +1,1 @@
-This is just fro exercises
+This is just for exercises
