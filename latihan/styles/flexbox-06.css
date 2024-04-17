@@ -1,0 +1,47 @@
+div {
+  font-family: Arial;
+}
+
+.header {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(120, 82, 178);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.home-link {
+  font-weight: bold;
+}
+
+.input-text {
+  width: 500px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/* input:focus {
+  outline: none;
+} */
+
+.download-btn {
+  color: white;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 2px;
+  background-color:rgb(120, 82, 178);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
