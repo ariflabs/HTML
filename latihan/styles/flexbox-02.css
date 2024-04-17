@@ -1,0 +1,24 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.birucerah {
+  background-color: lightblue;
+}
+
+.coralcerah {
+  background-color: lightcoral;
+}
+
+.item1 {
+  width: 50px;
+}
+
+.item2 {
+  flex: 1;
+}
+
+.item3 {
+  width: 75px
+}
