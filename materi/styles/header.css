@@ -7,6 +7,7 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
   background-color: white;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -102,6 +103,25 @@
 
 .notification-icon {
   height: 24px;
+}
+
+.notifications-icon-container {
+  position: relative;
+}
+
+.notifications {
+  background-color: rgb(200, 0, 0);
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
 }
 
 .current-user-picture {
