@@ -25,17 +25,26 @@
       <input class="search-bar" type="text" placeholder="Search">
       <button class="button-search">
         <img class="search-image" src="icons/search.svg">
+        <div class="tooltip">Search</div>
       </button>
       <button class="button-voice-search">
         <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
       </button>
     </div>
     <div class="right-section">
-      <img class="upload-icon" src="icons/upload.svg">
-      <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="youtube-apps-icon-container">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="tooltip">YouTube Apps</div>
+      </div>
       <div class="notifications-icon-container">
         <img class="notification-icon" src="icons/notifications.svg">
         <div class="notifications">7</div>
+        <div class="tooltip">Notifications</div>
       </div>
       <img class="current-user-picture" src="channel-picture/my-channel.jpeg">
     </div>
@@ -71,18 +80,33 @@
   <div class="video-grid">
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/thumbnail-01.webp">
+        <a href="" target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/thumbnail-01.webp">
+        </a>
         <div class="video-time">15:00</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img class="profile-picture" src="channel-picture/channel-profile-01.jpg">
+          <div class="profile-picture-container">
+            <a href="" target="_blank" class="video-title-link">
+              <img class="profile-picture" src="channel-picture/channel-profile-01.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="channel-picture/channel-profile-01.jpg">
+              <div>
+                <div class="tooltip-channel-name">SuperSimpleDev</div>
+                <div class="tooltip-channel-stats">10M Subscribers</div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="video-info">
-          <p class="video-title">
-            Backend web development - a complate overview
-          </p>
-      
+          <a href="" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Backend web development - a complate overview
+            </p>
+          </a>
+          
           <p class="video-author">
             SuperSimpleDev
           </p>
@@ -96,17 +120,32 @@
   
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/thumbnail-02.webp">
+        <a href="" target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/thumbnail-02.webp">
+        </a>        
         <div class="video-time">10:12</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img class="profile-picture" src="channel-picture/channel-profile-02.jpg">
+          <div class="profile-picture-container">
+            <a href="" target="_blank" class="video-title-link">
+              <img class="profile-picture" src="channel-picture/channel-profile-02.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="channel-picture/channel-profile-02.jpg">
+              <div>
+                <div class="tooltip-channel-name">NeetCode</div>
+                <div class="tooltip-channel-stats">1M Subscribers</div>
+              </div>
+            </div>
+          </div> 
         </div>
         <div class="video-info">
-          <p class="video-title">
-            How I Got Good at Coding Interviews
-          </p>
+          <a href="" target="_blank" class="video-title-link">
+            <p class="video-title">
+              How I Got Good at Coding Interviews
+            </p>
+          </a>
       
           <p class="video-author">
             NeetCode
@@ -121,18 +160,33 @@
     
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/thumbnail-03.webp">
+        <a href="" target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/thumbnail-03.webp">
+        </a>
         <div class="video-time">22:09</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img class="profile-picture" src="channel-picture/channel-profile-03.jpeg">
+          <div class="profile-picture-container">
+            <a href="" target="_blank" class="video-title-link">
+              <img class="profile-picture" src="channel-picture/channel-profile-03.jpeg">
+            </a>   
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="channel-picture/channel-profile-03.jpeg">
+              <div>
+                <div class="tooltip-channel-name">Veritasium</div>
+                <div class="tooltip-channel-stats">7M Subscribers</div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="video-info">
-          <p class="video-title">
-            The Simplest Math Problem No One Can Solve - Collatz Conjecture
-          </p>
-      
+          <a href="" target="_blank" class="video-title-link">
+            <p class="video-title">
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            </p>
+          </a>
+                
           <p class="video-author">
             Veritasium
           </p>
@@ -146,17 +200,32 @@
   
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/thumbnail-04.webp">
+        <a href="" target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/thumbnail-04.webp">
+        </a>
         <div class="video-time">8:22</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img class="profile-picture" src="channel-picture/channel-profile-04.jpeg">
+          <div class="profile-picture-container">
+            <a href="" target="_blank" class="video-title-link">
+              <img class="profile-picture" src="channel-picture/channel-profile-04.jpeg">
+            </a> 
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="channel-picture/channel-profile-04.jpeg">
+              <div>
+                <div class="tooltip-channel-name">Markiplier</div>
+                <div class="tooltip-channel-stats">9M Subscribers</div>
+              </div>
+            </div> 
+          </div>                  
         </div>
         <div class="video-info">
-          <p class="video-title">
-            Try Not To Laugh Challenge #9
-          </p>
+          <a href="" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Try Not To Laugh Challenge #9
+            </p>
+          </a>
       
           <p class="video-author">
             Markiplier
@@ -171,17 +240,32 @@
   
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/thumbnail-05.webp">
+        <a href="" target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/thumbnail-05.webp">
+        </a>
         <div class="video-time">4:51</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img class="profile-picture" src="channel-picture/channel-profile-05.jpeg">
+          <div class="profile-picture-container">
+            <a href="" target="_blank" class="video-title-link">
+              <img class="profile-picture" src="channel-picture/channel-profile-05.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="channel-picture/channel-profile-05.jpeg">
+              <div>
+                <div class="tooltip-channel-name">TED-Ed</div>
+                <div class="tooltip-channel-stats">8M Subscribers</div>
+              </div>
+            </div> 
+          </div>
         </div>
         <div class="video-info">
-          <p class="video-title">
-            What would happen if you didn't drink water? - Mia Nacamulli
-          </p>
+          <a href="" target="_blank" class="video-title-link">
+            <p class="video-title">
+              What would happen if you didn't drink water? - Mia Nacamulli
+            </p>
+          </a>
       
           <p class="video-author">
             TED-Ed
@@ -196,18 +280,33 @@
   
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/thumbnail-06.webp">
+        <a href="" target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/thumbnail-06.webp">
+        </a>        
         <div class="video-time">4:00</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img class="profile-picture" src="channel-picture/channel-profile-06.jpeg">
+          <div class="profile-picture-container">
+            <a href="" target="_blank" class="video-title-link">
+              <img class="profile-picture" src="channel-picture/channel-profile-06.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="channel-picture/channel-profile-05.jpeg">
+              <div>
+                <div class="tooltip-channel-name">Destination Tips</div>
+                <div class="tooltip-channel-stats">5M Subscribers</div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="video-info">
-          <p class="video-title">
-            Dubai's Crazy Underwater Train and Other Things #Only in Dubai
-          </p>
-      
+          <a href="" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+            </p>
+          </a>
+          
           <p class="video-author">
             Destination Tips
           </p>
